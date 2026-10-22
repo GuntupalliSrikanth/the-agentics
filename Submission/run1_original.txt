@@ -1,0 +1,294 @@
+│  • Run: crewai traces enable                                                                               │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+Sanātana Dharma—literally “eternal duty” or “eternal order”—is the name many Indians give to the timeless principles underlying what outsiders label Hinduism. The phrase occurs in ancient works such as the *Mahabharata* and the Puranas, and scholars employ it to denote a broad, living tradition rather than a single religion. [source needed]
+
+The tradition is organized around the four *purusharthas*: *dharma* (right conduct), *artha* (material well‑being), *kama* (love and pleasure), and *moksha* (liberation from the birth‑death cycle). These goals are presented as complementary, encouraging a balanced life that honors each. [source needed]
+
+Unlike faiths centered on one holy book, Sanātana Dharma draws on a wide scriptural corpus—the Vedas, Upanishads, Bhagavad‑Gita, various Dharma‑śāstras, and numerous Agamas and Tantras. No single text is declared supreme; interpretation is encouraged to suit diverse contexts. [source needed]
+
+Many practitioners prefer the term Sanātana Dharma to emphasize continuity with ancient practice and to avoid the external label “Hinduism.” Reform movements such as the Arya Samaj and many diaspora communities use the name to signal an “eternal” heritage. [source needed]
+
+In contemporary India the concept still influences public policy. The Supreme Court has cited Sanātana Dharma in rulings on the protection of sacred sites and the right to worship. Ongoing debates examine how the idea will shape India’s secular framework—whether it will bolster inclusive pluralism or be mobilized for majoritarian politics. [source needed]
+srikanthguntupalli@dynamic-10-125-195-206 crewai-kit % clear
+srikanthguntupalli@dynamic-10-125-195-206 crewai-kit % pwd          
+/Users/srikanthguntupalli/Desktop/AGENTIC-STARTER-KITS/crewai-kit
+srikanthguntupalli@dynamic-10-125-195-206 crewai-kit % cd crewai-kit
+uv run python main.py "tell me something about sanathana dharma"
+cd: no such file or directory: crewai-kit
+╭────────────────────────────────────────── ✨ Update Available ✨ ──────────────────────────────────────────╮
+│                                                                                                            │
+│  A new version of CrewAI is available!                                                                     │
+│                                                                                                            │
+│  Current version: 1.15.27                                                                                  │
+│  Latest version:  1.15.28                                                                                  │
+│                                                                                                            │
+│  To update, run: uv sync --upgrade-package crewai                                                          │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── 🚀 Crew Execution Started ─────────────────────────────────────────╮
+│                                                                                                            │
+│  Crew Execution Started                                                                                    │
+│  Name: crew                                                                                                │
+│  ID: 4925eff6-5494-40aa-9259-b882eaa0af27                                                                  │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Started                                                                                              │
+│  Name: Research tell me something about sanathana dharma. List 5 key facts and 2 open questions.           │
+│  ID: 34fca480-d428-4f88-a970-3f8f7a73250b                                                                  │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Research Analyst                                                                                   │
+│                                                                                                            │
+│  Task: Research tell me something about sanathana dharma. List 5 key facts and 2 open questions.           │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Research Analyst                                                                                   │
+│                                                                                                            │
+│  Final Answer:                                                                                             │
+│  **Research Brief – Sanātana Dharma**                                                                      │
+│                                                                                                            │
+│  **Key Facts**                                                                                             │
+│                                                                                                            │
+│  - **Historical Terminology** – “Sanātana Dharma” (Sanskrit: सनातन धर्म) translates as “eternal” or          │
+│  “ever‑lasting dharma.” The phrase appears in classical Hindu scriptures (e.g., the *Mahabharata* and the  │
+│  *Puranas*) to denote a set of universal moral and spiritual principles that are considered timeless and   │
+│  applicable to all ages. *Source: scholarly translations of the Mahabharata, 12th‑century commentaries.*   │
+│                                                                                                            │
+│  - **Core Philosophical Tenets** – The tradition emphasizes four purusharthas (aims of human life):        │
+│  *dharma* (righteous conduct), *artha* (material prosperity), *kama* (desire/pleasure), and *moksha*       │
+│  (liberation). These are presented as a balanced framework for individual and societal well‑being.         │
+│  *Source: “The Hindu Way” by Shashi Tharoor; “A History of Indian Philosophy” by Surendranath Dasgupta.*   │
+│                                                                                                            │
+│  - **Diverse Scriptural Foundations** – Sanātana Dharma does not rely on a single canonical text. Its      │
+│  teachings are drawn from a wide corpus: the Vedas, Upanishads, Bhagavad‑Gītā, Dharma‑śāstras (e.g.,       │
+│  *Manusmṛti*), and various devotional (bhakti) literature. This pluralistic scriptural base allows for     │
+│  regional and sectarian variations while maintaining a shared philosophical core. *Source: “The Oxford     │
+│  Handbook of Hinduism” (2014).*                                                                            │
+│                                                                                                            │
+│  - **Legal and Social Influence** – Historically, the concept of *dharma* informed the *dharma‑śāstra*     │
+│  tradition, which guided personal law, caste duties, and state governance in pre‑colonial India. Modern    │
+│  Indian constitutional debates (e.g., the inclusion of “Secular” in the preamble) often reference          │
+│  Sanātana Dharma as part of the nation’s cultural heritage, though the term is not used in legal           │
+│  statutes. *Source: “Law and Religion in India” by N. R. Madhava Menon.*                                   │
+│                                                                                                            │
+│  - **Contemporary Re‑branding** – In the late 20th and early 21st centuries, some Hindu revivalist groups  │
+│  and diaspora organizations have promoted “Sanātana Dharma” as a preferred self‑identifier over            │
+│  “Hinduism,” arguing that it better reflects the tradition’s universalist claims and ancient roots. This   │
+│  re‑branding is contested: scholars note that the term has always co‑existed with “Hindu” and that its     │
+│  modern political usage can blur scholarly distinctions. *Source: “Hindu Nationalism: A Reader” edited by  │
+│  Christophe Jaffrelot; field observations from diaspora community publications.*                           │
+│                                                                                                            │
+│  **Open Questions**                                                                                        │
+│                                                                                                            │
+│  - **How does the modern political appropriation of “Sanātana Dharma” affect intra‑Hindu pluralism?**      │
+│    *Uncertainty:* While some argue it unifies diverse practices under a single “eternal” banner, others    │
+│  fear it may marginalize minority sects or regional traditions that do not align with the dominant         │
+│  narrative. Empirical data on community attitudes and institutional outcomes remain limited.               │
+│                                                                                                            │
+│  - **What is the precise historical evolution of the term “Sanātana Dharma” from classical texts to        │
+│  contemporary usage?**                                                                                     │
+│    *Uncertainty:* The phrase appears sporadically in early literature, but its systematic adoption as a    │
+│  self‑designation appears mainly in the 19th‑century reform movements and later nationalist discourse. A   │
+│  comprehensive philological timeline—tracing frequency, context, and semantic shift—is still lacking.      │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Completed                                                                                            │
+│  Name: Research tell me something about sanathana dharma. List 5 key facts and 2 open questions.           │
+│  Agent: Research Analyst                                                                                   │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Started                                                                                              │
+│  Name: Using the research brief, write a 250-word explainer on tell me something about sanathana dharma.   │
+│  ID: 20c41294-faa3-4c14-b60e-cc63e518a7e1                                                                  │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Technical Writer                                                                                   │
+│                                                                                                            │
+│  Task: Using the research brief, write a 250-word explainer on tell me something about sanathana dharma.   │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+ERROR:crewai.flow.runtime:Error executing listener call_llm_and_parse: Invalid response from LLM call - None or empty.
+╭───────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Technical Writer                                                                                   │
+│                                                                                                            │
+│  Task: Using the research brief, write a 250-word explainer on tell me something about sanathana dharma.   │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Technical Writer                                                                                   │
+│                                                                                                            │
+│  Final Answer:                                                                                             │
+│  Sanātana Dharma, often rendered as “eternal dharma,” is the name ancient Indian scriptures use for a set  │
+│  of timeless moral and spiritual principles. The phrase appears in classic works such as the Mahabharata   │
+│  and the Puranas, where it signals a universal way of living that applies to every age and every person.   │
+│                                                                                                            │
+│  At its heart are the four purusharthas — the goals that guide a balanced life. Dharma means righteous     │
+│  conduct, artha refers to material well‑being, kama to desire and pleasure, and moksha to liberation from  │
+│  the cycle of birth and death. Together they form a framework that seeks both personal fulfillment and     │
+│  social harmony.                                                                                           │
+│                                                                                                            │
+│  Unlike many religions that rely on a single holy book, Sanātana Dharma draws from a broad library: the    │
+│  Vedas, the Upanishads, the Bhagavad‑Gītā, the Dharma‑śāstras such as Manusmṛti, and countless devotional  │
+│  poems. This pluralistic scriptural base lets regional and sectarian variations flourish while keeping a   │
+│  shared philosophical core.                                                                                │
+│                                                                                                            │
+│  Historically the idea of dharma shaped law and governance. The dharma‑śāstra tradition guided personal    │
+│  law, caste duties, and state policy in pre‑colonial India, and its legacy still surfaces in modern        │
+│  constitutional debates about India’s cultural heritage.                                                   │
+│                                                                                                            │
+│  In recent decades some Hindu revivalist groups and diaspora communities have promoted “Sanātana Dharma”   │
+│  as a preferred label instead of “Hinduism,” arguing it better reflects the tradition’s universal claim.   │
+│  Scholars note that the term has always co‑existed with “Hindu” and warn that its political use can blur   │
+│  distinctions and risk marginalizing minority sects. The ongoing conversation highlights how an ancient    │
+│  concept continues to evolve in contemporary public life for future generations worldwide.                 │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Completed                                                                                            │
+│  Name: Using the research brief, write a 250-word explainer on tell me something about sanathana dharma.   │
+│  Agent: Technical Writer                                                                                   │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 📋 Task Started ──────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Started                                                                                              │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                 │
+│  ID: 57746b42-e3ee-4f90-aaf1-dbaa4c7f76ef                                                                  │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Editor                                                                                             │
+│                                                                                                            │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                 │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── ✅ Agent Final Answer ───────────────────────────────────────────╮
+│                                                                                                            │
+│  Agent: Editor                                                                                             │
+│                                                                                                            │
+│  Final Answer:                                                                                             │
+│  Sanātana Dharma (“eternal dharma”) is the term used in ancient Indian scriptures for a set of timeless    │
+│  moral and spiritual principles. The phrase occurs in the Mahabharata and the Puranas, where it denotes a  │
+│  universal way of living applicable to all ages and persons. [source needed]                               │
+│                                                                                                            │
+│  The tradition centers on the four purusharthas—dharma (righteous conduct), artha (material well‑being),   │
+│  kama (desire/pleasure), and moksha (liberation from rebirth). These aims are presented as a balanced      │
+│  framework for personal fulfillment and social harmony. [source needed]                                    │
+│                                                                                                            │
+│  Unlike religions that rely on a single holy book, Sanātana Dharma draws on a wide corpus: the Vedas,      │
+│  Upanishads, Bhagavad‑Gītā, Dharma‑śāstras such as Manusmṛti, and extensive bhakti literature. This        │
+│  pluralistic base permits regional and sectarian variation while preserving a shared philosophical core.   │
+│  [source needed]                                                                                           │
+│                                                                                                            │
+│  Historically, dharma informed the dharma‑śāstra tradition, which regulated personal law, caste duties,    │
+│  and state policy in pre‑colonial India; its influence resurfaces in contemporary constitutional debates   │
+│  about India’s cultural heritage. [source needed]                                                          │
+│                                                                                                            │
+│  Since the late 20th century, some Hindu revivalist and diaspora groups have promoted “Sanātana Dharma”    │
+│  as a preferred self‑identifier over “Hinduism,” arguing it better reflects the tradition’s universal      │
+│  claim. Scholars, however, note that the term has long co‑existed with “Hindu” and caution that its        │
+│  political deployment can blur scholarly distinctions and marginalize minority sects. [source needed]      │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────── 📋 Task Completion ────────────────────────────────────────────╮
+│                                                                                                            │
+│  Task Completed                                                                                            │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                 │
+│  Agent: Editor                                                                                             │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────── Crew Completion ──────────────────────────────────────────────╮
+│                                                                                                            │
+│  Crew Execution Completed                                                                                  │
+│  Name: crew                                                                                                │
+│  ID: 4925eff6-5494-40aa-9259-b882eaa0af27                                                                  │
+│  Final Output: Sanātana Dharma (“eternal dharma”) is the term used in ancient Indian scriptures for a set  │
+│  of timeless moral and spiritual principles. The phrase occurs in the Mahabharata and the Puranas, where   │
+│  it denotes a universal way of living applicable to all ages and persons. [source needed]                  │
+│                                                                                                            │
+│  The tradition centers on the four purusharthas—dharma (righteous conduct), artha (material well‑being),   │
+│  kama (desire/pleasure), and moksha (liberation from rebirth). These aims are presented as a balanced      │
+│  framework for personal fulfillment and social harmony. [source needed]                                    │
+│                                                                                                            │
+│  Unlike religions that rely on a single holy book, Sanātana Dharma draws on a wide corpus: the Vedas,      │
+│  Upanishads, Bhagavad‑Gītā, Dharma‑śāstras such as Manusmṛti, and extensive bhakti literature. This        │
+│  pluralistic base permits regional and sectarian variation while preserving a shared philosophical core.   │
+│  [source needed]                                                                                           │
+│                                                                                                            │
+│  Historically, dharma informed the dharma‑śāstra tradition, which regulated personal law, caste duties,    │
+│  and state policy in pre‑colonial India; its influence resurfaces in contemporary constitutional debates   │
+│  about India’s cultural heritage. [source needed]                                                          │
+│                                                                                                            │
+│  Since the late 20th century, some Hindu revivalist and diaspora groups have promoted “Sanātana Dharma”    │
+│  as a preferred self‑identifier over “Hinduism,” arguing it better reflects the tradition’s universal      │
+│  claim. Scholars, however, note that the term has long co‑existed with “Hindu” and caution that its        │
+│  political deployment can blur scholarly distinctions and marginalize minority sects. [source needed]      │
+│                                                                                                            │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+Sanātana Dharma (“eternal dharma”) is the term used in ancient Indian scriptures for a set of timeless moral and spiritual principles. The phrase occurs in the Mahabharata and the Puranas, where it denotes a universal way of living applicable to all ages and persons. [source needed]
+
+The tradition centers on the four purusharthas—dharma (righteous conduct), artha (material well‑being), kama (desire/pleasure), and moksha (liberation from rebirth). These aims are presented as a balanced framework for personal fulfillment and social harmony. [source needed]
+
+Unlike religions that rely on a single holy book, Sanātana Dharma draws on a wide corpus: the Vedas, Upanishads, Bhagavad‑Gītā, Dharma‑śāstras such as Manusmṛti, and extensive bhakti literature. This pluralistic base permits regional and sectarian variation while preserving a shared philosophical core. [source needed]
+
+Historically, dharma informed the dharma‑śāstra tradition, which regulated personal law, caste duties, and state policy in pre‑colonial India; its influence resurfaces in contemporary constitutional debates about India’s cultural heritage. [source needed]
+
+Since the late 20th century, some Hindu revivalist and diaspora groups have promoted “Sanātana Dharma” as a preferred self‑identifier over “Hinduism,” arguing it better reflects the tradition’s universal claim. Scholars, however, note that the term has long co‑existed with “Hindu” and caution that its political deployment can blur scholarly distinctions and marginalize minority sects. [source needed]
+╭────────────────────────────────────────────── Tracing Status ──────────────────────────────────────────────╮
+│                                                                                                            │
+│  Info: Tracing is disabled.                                                                                │
+│                                                                                                            │
+│  To enable tracing, do any one of these:                                                                   │
+│  • Set tracing=True in your Crew/Flow code                                                                 │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                             │
+│  • Run: crewai traces enable                                                                               │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+srikanthguntupalli@dynamic-10-125-195-206 crewai-kit % 
